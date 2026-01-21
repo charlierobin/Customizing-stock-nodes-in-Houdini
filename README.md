@@ -59,6 +59,6 @@ All well and good. However, one problem I noted is that the node color is not au
 
 Any subsequent updates to the color work fine, ie: clicking on the node and then adjusting the color picker(s), but not that initial one.
 
-So, (assuming your default color is white – (1.0,1.0,1.0)), when you drop a new color node, the initial color of the node in the network view remains its default, which is a kind of light grey. It’s only (if and) when you go and edit the color that the node color updates.
+Therefore when (assuming your default color is white – (1.0,1.0,1.0)) you drop a new color node, the initial color of the node in the network view remains its default, which is a kind of light grey. It’s only (if and) when you go and edit the color that the node color then updates.
 
 So I just added the few lines necessary to the final example scripts (specifically, only the `OnCreated` handler) so that this now works the way you would expect it to.
