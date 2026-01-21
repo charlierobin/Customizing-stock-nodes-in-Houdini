@@ -1,6 +1,6 @@
 # Customizing stock nodes in Houdini
  
-A slight enhancement to the little Toadstorm Nerdblog Houdini tutorial at: https://www.toadstorm.com/blog/?p=1012
+A slight enhancement to the (excellent) little Toadstorm Nerdblog Houdini tutorial at: https://www.toadstorm.com/blog/?p=1012, titled: **Customizing stock nodes in Houdini** (published by toadstorm on 05/18/2023).
 
 That tutorial goes through a way of attaching a callback handler to a node’s parameter.
 
@@ -45,7 +45,7 @@ I think there are a couple of places where these scripts can be put for Houdini 
 `/Users/charlie/Library/Preferences/houdini/18.5/scripts/sop/color_OnCreated.py`
 `/Users/charlie/Library/Preferences/houdini/18.5/scripts/sop/color_OnLoaded.py`
 
-Then, within those scripts, you further examine the information provided by Houdini to determine what you want to handle.
+Then, within those scripts, you further examine the information provided by Houdini to determine what you want to handle (`kwargs`).
 
 For this example, the event is `hou.nodeEventType.ParmTupleChanged`.
 
