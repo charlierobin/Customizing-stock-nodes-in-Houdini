@@ -8,11 +8,13 @@ The example extends the base (stock) Color SOP: changing the color value paramet
 
 ![Screenshot 2026-01-21 at 12 17 53](https://github.com/user-attachments/assets/310a2c40-e4e2-41dd-8e93-965bcde7961a)
 
-This is done by providing Python scripts named with:
+This is done by providing Houdini with Python scripts named with:
 
 (1) the name of the node whose events you want to look at
 
-(2) the name of the event itself
+(2) an underscore
+
+(3) the name of the event itself
 
 ...like so:
 
