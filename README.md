@@ -30,7 +30,9 @@ Then, within those scripts, you further examine the information provided by Houd
 
 For this example, the event is `hou.nodeEventType.ParmTupleChanged`.
 
-But there are plenty of others. Check out the Houdini Python docs: https://www.sidefx.com/docs/houdini/hom/hou/nodeEventType.html
+But there are plenty of others. Check out the Houdini Python docs: 
+
+https://www.sidefx.com/docs/houdini/hom/hou/nodeEventType.html
 
 Within the callback handler, the new color parameter is applied to the node color.
 
