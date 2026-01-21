@@ -11,6 +11,7 @@ The example extends the base (stock) Color SOP: changing the color value paramet
 This is done by providing Python scripts named with:
 
 (1) the name of the node whose events you want to look at
+
 (2) the name of the event itself
 
 ...like so:
@@ -22,13 +23,14 @@ nodeName_eventName.py
 I think there are a couple of places where these scripts can be put for Houdini to find them, but (for better or worse) this is where I always put mine:
 
 /Users/charlie/Library/Preferences/houdini/18.5/scripts/sop/color_OnCreated.py
+
 /Users/charlie/Library/Preferences/houdini/18.5/scripts/sop/color_OnLoaded.py
 
 Then, within those scripts, you further examine the information provided by Houdini to determine what you want to handle.
 
 For this example, the event is `hou.nodeEventType.ParmTupleChanged`.
 
-But there are plenty of others. Check out https://www.sidefx.com/docs/houdini/hom/hou/nodeEventType.html
+But there are plenty of others. Check out the Houdini Python docs: https://www.sidefx.com/docs/houdini/hom/hou/nodeEventType.html
 
 Within the callback handler, the new color parameter is applied to the node color.
 
