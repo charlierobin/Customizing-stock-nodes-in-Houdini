@@ -20,7 +20,7 @@ nodeName_eventName.py
 
 (Remember that all names are case sensitive.)
 
-The event names above are the ones from `Edit Operator Type Properties` `Scripts` tab:
+The event names above are the ones from `Edit Operator Type Properties` window (`Scripts` tab):
 
 ![Screenshot 2026-01-21 at 12 46 55](https://github.com/user-attachments/assets/a8380113-8cd9-41d8-9394-e5d1c0a23577)
 
