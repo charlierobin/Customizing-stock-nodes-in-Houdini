@@ -24,22 +24,14 @@ nodeName_eventName.py
 
 The event names above are the ones from `Edit Operator Type Properties` window (`Scripts` tab):
 
-![Screenshot 2026-01-21 at 12 46 55](https://github.com/user-attachments/assets/a8380113-8cd9-41d8-9394-e5d1c0a23577)
-
 ```
 PreFirstCreate
-Expressions
-PythonModule
 OnCreated
 OnLoaded
-OnUpdated
 OnDeleted
 PostLastDelete
 OnInputChanged
 OnNameChanged
-OnInstall
-OnUninstall
-SyncNodeVersion
 ```
 
 I think there are a couple of places where these scripts can be put for Houdini to find them, but (for better or worse) this is where I always put mine:
